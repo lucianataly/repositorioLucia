@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de Datos Personales</title>
+</head>
+<body>
+
+    <h1>Ingrese sus datos</h1>
+
+    <form>
+        <div>
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre">
+        </div>
+        <br>
+        <div>
+            <label for="direccion">Dirección:</label>
+            <input type="text" id="direccion" name="direccion">
+        </div>
+        <br>
+        <div>
+            <label for="sexo">Sexo:</label>
+            <select id="sexo" name="sexo">
+                <option value="">Seleccionar</option>
+                <option value="masculino">Masculino</option>
+                <option value="femenino">Femenino</option>
+            </select>
+        </div>
+        <br>
+        <div>
+            <label for="pais">País:</label>
+            <select id="pais" name="pais">
+                <option value="">Seleccionar</option>
+                <option value="peru">Perú</option>
+                <option value="chile">Chile</option>
+            </select>
+        </div>
+        <br>
+        <button type="submit">Enviar</button>
+    </form>
+
+</body>
+</html>
